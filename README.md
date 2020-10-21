@@ -1,4 +1,4 @@
-# Conda for Reporducible Data Science
+# Conda for Reproducible Data Science
 
 ## Table of Contents
 
