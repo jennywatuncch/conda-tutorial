@@ -1,0 +1,23 @@
+#!/bin/sh
+#SBATCH -p general
+#SBATCH --nodes=1
+#SBATCH --time=05:00
+#SBATCH --mem=10mb
+#SBATCH --ntasks=1
+#SBATCH -J hello_world_run
+#SBATCH -o hello_world_run.%A.out
+#SBATCH -e hello_world_run.%A.err
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --mail-user=<your_email>@unc.edu
+
+#Load anaconda module
+module load anaconda
+
+#Activate environment
+source activate cnnsv
+
+#Show all conda packages, confirming the activation worked
+conda list
+
+#Run our script
+python hello_world.py
