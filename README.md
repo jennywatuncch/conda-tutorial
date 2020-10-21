@@ -129,7 +129,7 @@ You now have a file that you can publish on Github, send to collaborators, or sh
 
 ```{bash}
 #Install environment from file
-conda install -f hello-world.yml
+conda env create -f hello-world.yml
 ```
 
 And voila! Complete reproducibility with a single command.
