@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-- [Conda for Reporducible Data Science](#conda-for-reporducible-data-science)
+- [Conda for Reproducible Data Science](#conda-for-reporducible-data-science)
   - [Table of Contents](#table-of-contents)
     - [Why Conda](#why-conda)
       - [No, seriously, why conda](#no-seriously-why-conda)
