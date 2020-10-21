@@ -18,7 +18,7 @@
     - [Using conda in a SLURM job](#using-conda-in-a-slurm-job)
     - [Envs within Docker Containers](#envs-within-docker-containers)
 
-![Let's do some data science, babyyyy](conda-logo.png)
+![Let's do some data science, babyyyy](images/conda-logo.png)
 [Official Documentation here!](https://docs.conda.io/projects/conda/en/latest/index.html)
 
 You've probably heard of the tool Conda, virtual environments, and package management (not Anaconda! We'll touch on that later). To put it briefly, conda is a package manager, much like pip for python, that is aimed at being flexible enough for any language or tools.
