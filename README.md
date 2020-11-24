@@ -12,6 +12,7 @@
     - [Creating Your First Env from Scratch](#creating-your-first-env-from-scratch)
     - [Sharing Environments](#sharing-environments)
     - [Adding Channels](#adding-channels)
+    - [Deleting Environments](#removing-environments)
   - [The Not-So-Basics](#the-not-so-basics)
     - [Using pip in conjunction with conda](#using-pip-in-conjunction-with-conda)
     - [Envs within Makefiles](#envs-within-makefiles)
@@ -153,6 +154,16 @@ conda config --add channels conda-forge
 ```
 
 When you do this, all future installations will have the option of looking through either the default conda channel or conda-forge, and if it can't find it on one it will install it through the other. There's also a priority list for channels, meaning that conda will look through the top priority channel first for a package, [but you can read more on the official docs for that.](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-channels.html)
+
+---
+
+### Removing Environments
+
+To delete an environment and get rid of any packages associated with it run:
+
+```{bash}
+conda remove -n <env-name> --all
+```
 
 ---
 
