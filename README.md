@@ -209,7 +209,3 @@ source activate hello-world
 I've included an example SLURM batch script in this repo as an example, along with an example python script to test that it's working.
 
 ---
-
-### Envs within Docker Containers
-
-Coming soon, along with a portable container example!
