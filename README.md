@@ -75,7 +75,7 @@ Let's break down some common terms that'll be used throughout this doc, these ar
 
 ### Installation
 
-If you're on Longleaf (or any other module-handled HPC system) conda is already likely installed, all you need to do is `module load conda`. This puts you in the 'base' conda environment, meaning that you have access to conda and all its functionality, but you're in a default vanilla installation that doesn't have much installed.
+If you're on Longleaf (or any other module-handled HPC system) conda is already likely installed, all you need to do is `module load anaconda`. This puts you in the 'base' conda environment, meaning that you have access to conda and all its functionality, but you're in a default vanilla installation that doesn't have much installed.
 
 If conda isn't already installed, it's fairly straightforward to do so. Download one of the linux installers from <https://docs.conda.io/en/latest/miniconda.html#linux-installers>, unpack, and run
 
